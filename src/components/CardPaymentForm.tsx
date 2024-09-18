@@ -59,9 +59,6 @@ const CardPaymentForm: React.FC = () => {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-xl">
-      <h1 className="text-2xl font-bold mb-6 text-gray-800">
-        Card Payment Form
-      </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label
