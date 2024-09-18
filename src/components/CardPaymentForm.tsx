@@ -33,7 +33,7 @@ const CardPaymentForm: React.FC = () => {
 
     if (validateCard()) {
       try {
-        const response = await fetch("https://api.revenew.co/process-payment", {
+        const response = await fetch("http://api.revenew.co/process-payment", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
